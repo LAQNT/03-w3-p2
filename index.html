@@ -53,22 +53,19 @@
               <!-- ----right--- -->
               <div class="right-section search">
                 <div class="btn-group">
-                    <button class="btn btn-dark p-0 dropdown-toggle" type="button" id="defaultDropdownSearch" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                    <button class="btn btn-dark p-0" type="button" id="defaultDropdownSearch" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                     <i class="bi bi-search "></i>                      
                     </button>
 
-                    <!-- TODO: -->
+                    <!-- search dropdown -->
                     
                     <div class="dropdown-menu bg-dark px-2 " style="min-width: 10rem;">
                         <div class="mb-3 ">
-                            <input type="Search" class="form-control bg-dark p-1"  placeholder="Search">
+                            <input type="text" class="form-control bg-dark p-1"  placeholder="Search">
                           </div>
                       </div>
                     
                 </div>
-                
-
-
 
                 <span>KIDS</span>
                 <i class="bi bi-bell-fill"></i>
@@ -91,10 +88,11 @@
           </nav>
     </section>
 
+<!-- ---------------------TvshowsBar----------------- -->
 
     <section id="search-section">
-        <div class="container mt-5">
-            <div class="search-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid mx-4 my-5">
 
                 <div class="search-left">
                     <h3>TV Shows</h3>
@@ -122,9 +120,135 @@
                 </div>
 
             </div>
+        </nav>
+    </section>
+
+
+    <section class="gallery" id="trendingNow">
+        <div class="container-fluid mx-4">
+            <h4>Trending Now</h4>
+            <div class="row d-flex flex-nowrap my-4 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                    <img src="assets/imgs/movies/1.png" alt="1">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6 ">
+                    <img src="assets/imgs/movies/2.png" alt="2">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 d-xs-block">
+                    <img src="assets/imgs/movies/3.png" alt="3">
+                </div>
+                <div class="col-xl-2 col-lg-3 d-none d-lg-block">
+                    <img src="assets/imgs/movies/4.png" alt="4">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/5.png" alt="5">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/6.png" alt="6">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="gallery mt-5" id="WatchAgain">
+        <div class="container-fluid mx-4">
+            <h4>Watch It Again</h4>
+            <div class="row d-flex flex-nowrap my-4 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                    <img src="assets/imgs/movies/7.png" alt="7">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6 ">
+                    <img src="assets/imgs/movies/8.png" alt="8">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 d-xs-block">
+                    <img src="assets/imgs/movies/9.png" alt="9">
+                </div>
+                <div class="col-xl-2 col-lg-3 d-none d-lg-block">
+                    <img src="assets/imgs/movies/10.png" alt="10">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/11.png" alt="11">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/12.png" alt="12">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="gallery mt-5" id="newReleases">
+        <div class="container-fluid mx-4">
+            <h4>New Releases</h4>
+            <div class="row d-flex flex-nowrap my-4 ">
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6">
+                    <img src="assets/imgs/movies/13.png" alt="13">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 col-xs-6 ">
+                    <img src="assets/imgs/movies/14.png" alt="14">
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-4 d-xs-block">
+                    <img src="assets/imgs/movies/15.png" alt="15">
+                </div>
+                <div class="col-xl-2 col-lg-3 d-none d-lg-block">
+                    <img src="assets/imgs/movies/16.png" alt="16">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/17.png" alt="17">
+                </div>
+                <div class="col-xl-2 d-none d-xl-block">
+                    <img src="assets/imgs/movies/18.png" alt="18">
+                </div>
+            </div>
         </div>
     </section>
 
-    
+<!-- -------footer------- -->
+
+<footer>
+    <div class="container">
+        <div class="social-icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+        </div>
+        
+        <div class="row mt-2">
+            <div class="col d-flex flex-column">
+                <span>Audio and Subtitles</span>
+                <span>Media Center</span>
+                <span>Privacy</span>
+                <span>Contact Us</span>
+            </div>
+            <div class="col d-flex flex-column">
+                <span>Audio Description</span>
+                <span>Investor Relations</span>
+                <span>Legal Notices</span>
+            </div>
+            <div class="col d-flex flex-column">
+                <span>Help Center</span>
+                <span>Jobs</span>
+                <span>Cookies Preferences</span>
+            </div>
+            <div class="col d-flex flex-column">
+                <span>Gift Cards</span>
+                <span>Terms of use</span>
+                <span>Corporate Information</span>
+            </div>
+        </div>
+        
+        <div>
+            <button type="button" class="btn btn-dark">Service Code</button>
+            <span>®1997-2023 Netflix, Inc.</span>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
 </body>
 </html>

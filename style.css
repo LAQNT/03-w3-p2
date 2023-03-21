@@ -17,6 +17,7 @@
 .navbar i {
     color: rgba(255, 255, 255, 0.888);
     font-size: .85rem;
+    cursor: pointer;
 }
 
 .navbar span {
@@ -30,6 +31,7 @@
     gap: 1rem;
 }
 
+/* -----search----- */
 .search{
     color: white;
 }
@@ -45,6 +47,13 @@
     border-right: none;
     color: white;
 }
+
+.bs-dropdown-menu{
+    color: white;
+}
+
+
+/* ----user---- */
 
 .right-section .btn-group {
     padding: 0;
@@ -69,7 +78,9 @@
 
 .search-section{
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .search-left {
@@ -119,4 +130,60 @@
 .search-right i {
     color: rgba(255, 255, 255, 0.500);
     font-size: 1rem;
+    cursor: pointer;
+}
+
+/* -------trnedingNow------ */
+
+h4 {
+    color: white;
+}
+
+.gallery div{
+    overflow: hidden;
+    object-position: center;
+    margin-right: .1rem;
+}
+
+/* .gallery .row {
+    z-index: 2;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), black);
+} */
+
+
+/* -----footer----- */
+
+footer{
+    margin-top: 7rem;
+}
+
+
+footer .container {
+    width: 40rem;
+}
+
+footer i {
+   color: white;
+   opacity: 50%; 
+   font-size: 1.2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    cursor: pointer;
+}
+
+footer span , button {
+    color: rgba(255, 255, 255, 0.500);
+    font-size: .7rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+footer div:last-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
