@@ -149,12 +149,36 @@ h4 {
     color: white;
 }
 
-.gallery div{
+.gallery .row div{
     overflow: hidden;
     object-position: center;
-    margin-right: .1rem;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    
 }
 
+
+.gallery .row div::before {
+    content: "";
+    background-color: black;
+    opacity: 50%;
+    position: absolute; 
+
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: .01s;
+    transform: translateY(-100%);
+}
+
+.gallery .row div:hover::before {
+    transform: translateY(0%);
+    cursor: pointer;
+}
 
 /* -----footer----- */
 
